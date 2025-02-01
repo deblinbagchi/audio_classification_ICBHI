@@ -60,7 +60,7 @@ def audio_features(filename):
 
     return np.concatenate((mfccs,chroma,mel,contrast,tonnetz))
 
-x1 = audio_features('/content/drive/My Drive/ICBHI_data/ICBHI_final_database/104_1b1_Ar_sc_Litt3200.wav')
+x1 = audio_features('/content/drive/My Drive/ICBHI_data/ICBHI_final_database/119_1b1_Ar_sc_Meditron.wav')
 x1 = x1.reshape(1, x1.shape[0], 1)
 
 model = load_model('/content/drive/My Drive/ICBHI_data/my_model.keras')
