@@ -1,6 +1,9 @@
 # audio_classification_ICBHI
 Audio classification task on ICBHI data
 
+You can directly use the evaluate_from_audio.ipynb file in Google collab and change the path to the model and input files. More info on these below.
+Otherwise, you can also run the evaluate_from_audio.py file.
+
 Please set up your environment as follows:
 
 ```
