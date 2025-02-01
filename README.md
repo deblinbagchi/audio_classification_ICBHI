@@ -8,6 +8,10 @@ pip install -r requirements.txt
 ```
 In order to test out the model, I am selecting the following audio files from the test set of the ICBHI dataset:
 
+1) 102_1b1_Ar_sc_Meditron.wav ------> Original label "Healthy" (Can be found [here](https://drive.google.com/file/d/17xsE7LDLHPLWFjhojHg-KnhJL8RrucJp/view?usp=drive_link))
+2) 104_1b1_Ll_sc_Litt3200.wav ------> Original label "COPD" (Can be found [here](https://drive.google.com/file/d/122NzoQqOhw3vyuJNdT1-Ea9iSlGmz-wG/view?usp=drive_link))
+3) 109_1b1_Ar_sc_Litt3200.wav ------> Original label "COPD" (Can be found [here](https://drive.google.com/file/d/13iKngiwlrYYAT2jvRnlaUeZzoM3I_6Xw/view?usp=drive_link))
+
 
 These files can be found at my Google drive. 
 Please download the trained model from my Google Drive as well. The model can be found here.
